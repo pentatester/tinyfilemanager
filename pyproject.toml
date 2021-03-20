@@ -1,16 +1,16 @@
 [tool.poetry]
 name = "tinyfilemanager"
-version = "0.1.0"
+version = "0.2.0"
 description = "Python Client / SDK for tinyfilemanager"
 authors = ["hexatester <hexatester@protonmail.com>"]
 readme = "README.md"
 keywords = ["tinyfilemanager"]
 classifiers=[
-    "Development Status :: 1 - Planning",
+    "Development Status :: 2 - Pre-Alpha",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Intended Audience :: Developers",
-    "Topic :: Communications :: File Sharing",
+    "Topic :: Communications",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.7",
