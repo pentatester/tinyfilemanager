@@ -15,3 +15,7 @@ class TinyFileManagerError(Exception):
 
 class Unauthorized(TinyFileManagerError):
     pass
+
+
+class NetworkError(TinyFileManagerError):
+    pass
