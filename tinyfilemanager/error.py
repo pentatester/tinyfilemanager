@@ -11,3 +11,7 @@ class TinyFileManagerError(Exception):
 
     def __reduce__(self) -> Tuple[type, Tuple[str]]:
         return self.__class__, (self.message,)
+
+
+class Unauthorized(TinyFileManagerError):
+    pass
